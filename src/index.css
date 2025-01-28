@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headings {
+  @apply text-3xl text-text-color font-bold my-14;
+}
+.headings span {
+  @apply text-button-color;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: #fefcff;
+  overflow-x: hidden;
+}
+
+.section {
+  @apply px-5 lg:px-24 pb-24;
+}
+
+.btn {
+  @apply px-5 py-3 bg-button-color text-white rounded-full;
+}
+
+.inp {
+  @apply relative p-2 border border-zinc-400 w-full outline-none rounded-full px-5;
+}
+
+.clip-path-1 {
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
